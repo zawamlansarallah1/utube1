@@ -1,36 +1,71 @@
 
 class Messages:
 
-    START_MSG = "Hi there {}.\n\nI'm Youtube Uploader Bot.You can use me to upload any telegram video to youtube once you authorise me.You can know more from /help.\n\nThank you."
+    START_MSG = "مرحبا {}.\n\أنا روبوت رفع الفديوهات لليوتيول .يمكنك أن تستخدمني لتحميل أي فيديو من هنا وسارفعه  على اليوتيوب بمجرد أن ترسل لي الفديو لييمكنك معرفة المزيد اضغط /help
+
+..\n\يعطيكم الصّحة."
 
     HELP_MSG = [
         ".",
-        "Hi there.\n\nFirst things first. You should be aware that youtube processes each and every video uploaded, and its AI is amazing that it flags the video for copyrights if it finds copywrited content as soon as its uploaded, and you will not be able to publish the video.\n\nRead through all the pages to know how I work.",
+        "مرحبا صديقي \n\n
+أول شيء يجب أن تكون على علم أن يوتيوب يفحص  كل الفيديو التي تم تحميلها ، وتخضع لمراقبة حقوق الطبع والنشر  إذا وجد\n\n
+انتقل الى الخطوات الاخرى لمعرفة طريقة تفعيل البوت",
 
-        "**Lets learn how I work.**\n\n**Step 1:** __You authorise me to upload to your youtube channel.More about this in comming pages.__\n\n**Step 2:** __You forward any Telegram video to me.__\n\n**Step 3:** __You reply __/upload __to the forwarded video file.You can also specify some title in the upload command, but its optional though.Title will follow the __`/upload`.__If no title is given, filename will be used as title.__\n\n**Step 4:** __I remotely download the file and uploads to your Youtube channel.__\n\n**Step 5:** __I send you the Youtube link after upload.__",
+        "🔹حسنا لتفعيل البوت قم بالتالي 
 
-        "**Create your youtube channel**\n\nThere is no point in using me if you dont have a Youtube Channel.So go through the given steps to create one.\n\n**Step 1:** __Sign in to YouTube on a computer or using the mobile.__\n\n**Step 2:** __Try any action that requires a channel, such as uploading a video, posting a comment, or creating a playlist.__\n\n**Step 3:** __If you don't yet have a channel, you'll see a prompt to create a channel.__\n\n**Step 4:** __Check the details and confirm to create your new channel.__",
+\n\n▪︎**الخطوة الأولى:** تقوم بربط اليوت بقناتك وتعطيني صلاحيه  أن أرفع إلى قناة يوتيوب الخاصة بك.المزيد عن هذا في الصفحات القادمة
 
-        "**Verify your YouTube account**\n\nYoutube take spam and abuse very seriously. So you are asked to verify your Youtube account. Once you've verified your account, you will be able to upload videos longer than 15 minutes. If you haven't verified your account every video uploaded which are longer than 15 minutes will be removed.\n[Verify your Youtube account here.](http://www.youtube.com/verify)",
+\n\n▪︎**الخطوة الثانية**: قم بتحويل اي ملف فديو الى هنا
 
-        "**Now lets authorise.**\n\nYou need to give me the access to upload videos to your Youtube account.For that open the given link and allow access and copy the code. Come back here and type `/authorise copied-code` and send it.\n\n**Fear not!**\nI'm not a hacker or someone who wants to creep into people's privacy. I respect one's privacy. I'm here just to help anyone who wants help. If I was a hacker I won't be sitting here writing Telegram Bots."
+\n\n▪︎**الخطوة 3:** تقوم بالرد /upload على ملف الفيديو المحول الى البوت .يمكنك أيضا تحديد  العنوان في أمر الرفع ، لكنه اختياري على الرغم من ذلك.العنوان لكن اذا تم الرفع بدون عنوان  ، سيستخدم اسم الملف كعنوان.
+
+\n\n▪︎**الخطوة الرابعة:** أقوم بتحميل الملف عن بعد وتحميله على قناة اليوتيوب الخاصة بك.
+
+\n\n**▪︎الخطوة الخامسة:** أرسل لك رابط اليوتيوب بعد الرفع.
+🔹 للاستفسار @haidarkrar",
+
+        "**🔹** اولا أنشئ قناة اليوتيوب الخاصة بك**\n\n
+
+🔹لا فائدة من استخدامي إن لم يكن لديك قناة يوتيوب  قم بصنع قناة  من خلال الخطوات التاليه بالاسفل .\n\n
+
+1⃣**الخطوة الأولى**: الدخول  على اليوتيوب على حاسوب أو باستخدام الهاتف النقال.\n\n
+
+2⃣**الخطوة الثانية:** جرب أي عمل يتطلب قناة ، مثل تحميل فيديو ، أو نشر تعليق ، أو إنشاء قائمة تشغيل.\n\n
+
+3⃣**الخطوة الثالثة:** إذا لم يكن لديك قناة بعد ، ابحث طريقة لإنشاء قناة.\n\n
+
+4⃣**الخطوة الرابعة:** التحقق من التفاصيل والتأكيد لإنشاء قناتك الجديدة.\n\n
+
+🔹 للاستفسار @haidarkrar",
+
+        "**تاكيد حسابك على اليوتيوب\n\n
+
+🔹اليوتيوب تأخذ الرسائل المزعجة والإساءة على محمل الجد لذا يطلب منك التحقق من حسابك على اليوتيوب بمجرد أن تتحقق من حسابك ، ستكون قادرا على تحميل\n\n الفيديوهات أكثر من 15 دقيقة. إذا لم تتحقق من حسابك كل فيديو تم تحميله والذي يزيد عن 15 دقيقة سيتم إزالته من قبل يوتيوب\n\n
+
+🔹 [تحقق من حسابك على اليوتيوب هنا..](http://www.youtube.com/verify)",
+
+        "**الآن قم بربط البوت بقناتك \n\n
+
+●عليك أن تعطيني صلاحية تحميل الفيديوهات على حسابك على اليوتيوب من أجل ذلك افتح الحساب و اسمح بالدخول و نسخ الكود عد إلى هنا وأكتب الامر التالي 
+/authorise الكود الي قمت بنسخه."
     ]
 
-    NOT_A_REPLY_MSG = "Please reply to some video file."
+    NOT_A_REPLY_MSG = " قم بالرد على ملف الفديو بالامر التالي\n\n
+\n\n.على سبيل المثال /upload اسم الملف"
 
-    NOT_A_MEDIA_MSG = "No media file found. "+NOT_A_REPLY_MSG
+    NOT_A_MEDIA_MSG = "  هذا لا يبدوا كملف فديو. "+NOT_A_REPLY_MSG
 
-    NOT_A_VALID_MEDIA_MSG = "This is not a valid media"
+    NOT_A_VALID_MEDIA_MSG = "هذا ليس ملف وسائط"
 
-    PROCESSING = "Processing....."
+    PROCESSING = "جاري الرف لليوتيوب....."
 
-    NOT_AUTHENTICATED_MSG = "You have not authenticated me to upload video to any account. see /help to authenticate"
+    NOT_AUTHENTICATED_MSG = " /help  للمساعدة المعذرة أولا يجب ربط البوت بقتاتك اليوتيوب وإعطائي الاذن لرفع الفديوهات  اضغط"
 
-    NO_AUTH_CODE_MSG = "There is no code. Please provide some code"
+    NO_AUTH_CODE_MSG = "الكود غير موجود . يرجى إرسال  الكود"
 
-    AUTH_SUCCESS_MSG = "Congrats, you have successfully authenticated me to upload to Youtube.\nHappy uploading!"
+    AUTH_SUCCESS_MSG = "مبرووك, لقد تم ربط قناتك اليوتيوب بالبوت بنجاح .\nاستمتع بالتحميل !"
 
-    AUTH_FAILED_MSG = "Authentication failed\nDetails:{}"
+    AUTH_FAILED_MSG = "فشل ربط القناة \nالتفاصيل  هنا :{}"
     
-    AUTH_DATA_SAVE_SUCCESS = "Successfully saved the given auth data!"
+    AUTH_DATA_SAVE_SUCCESS = "تم حفظ البيانات بنجاح "
     
